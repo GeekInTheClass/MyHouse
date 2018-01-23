@@ -16,6 +16,7 @@
 		1206BD862015A4A60042F217 /* HRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1206BD852015A4A60042F217 /* HRUITests.swift */; };
 		1206BD942015A5E90042F217 /* LineUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1206BD932015A5E90042F217 /* LineUpTableViewController.swift */; };
 		1206BD962015AA7A0042F217 /* HRModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1206BD952015AA7A0042F217 /* HRModel.swift */; };
+		AEF2E11B2015D18600A9A5ED /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2E11A2015D18600A9A5ED /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1206BD872015A4A60042F217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1206BD932015A5E90042F217 /* LineUpTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpTableViewController.swift; sourceTree = "<group>"; };
 		1206BD952015AA7A0042F217 /* HRModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRModel.swift; sourceTree = "<group>"; };
+		AEF2E11A2015D18600A9A5ED /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +103,15 @@
 		1206BD642015A4A60042F217 /* HR */ = {
 			isa = PBXGroup;
 			children = (
+				AEF2E11A2015D18600A9A5ED /* DetailViewController.swift */,
+				1206BD952015AA7A0042F217 /* HRModel.swift */,
+				1206BD932015A5E90042F217 /* LineUpTableViewController.swift */,
 				1206BD652015A4A60042F217 /* AppDelegate.swift */,
 				1206BD672015A4A60042F217 /* ViewController.swift */,
 				1206BD692015A4A60042F217 /* Main.storyboard */,
-				1206BD932015A5E90042F217 /* LineUpTableViewController.swift */,
 				1206BD6C2015A4A60042F217 /* Assets.xcassets */,
 				1206BD6E2015A4A60042F217 /* LaunchScreen.storyboard */,
 				1206BD712015A4A60042F217 /* Info.plist */,
-				1206BD952015AA7A0042F217 /* HRModel.swift */,
 			);
 			path = HR;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				1206BD682015A4A60042F217 /* ViewController.swift in Sources */,
 				1206BD942015A5E90042F217 /* LineUpTableViewController.swift in Sources */,
+				AEF2E11B2015D18600A9A5ED /* DetailViewController.swift in Sources */,
 				1206BD662015A4A60042F217 /* AppDelegate.swift in Sources */,
 				1206BD962015AA7A0042F217 /* HRModel.swift in Sources */,
 			);

@@ -33,3 +33,4 @@ class HRModel{
         self.arrayList.append(Store(name:"인테리어소품"))
     
 }
+}

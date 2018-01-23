@@ -27,7 +27,7 @@ class LineUpTableViewController : UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //cell 의 텍스트 레이블에 문자열 넣기26줄
         
-        let cell = UITableViewCell(style: .value1, reuseIdentifier: nil)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")!
         
         let store = self.modelHR.arrayList[indexPath.row]
         
@@ -36,6 +36,14 @@ class LineUpTableViewController : UITableViewController {
         
         return cell
         
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vcDetail = segue.destination as! DetailViewController
+        
+        let indexPath = self.tableView.indexPath(for: sender as! UITableViewCell)
+        
+        vcDetail.selectedStore = self.modelHR.arrayList[(indexPath?.row)!]
     }
     
 }
